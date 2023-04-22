@@ -1,5 +1,5 @@
 # Calculator
-Simple Calculator UI made with React.js
+Simple draggable calculator UI made with React.js
 
 
 
