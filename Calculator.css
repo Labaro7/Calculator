@@ -1,0 +1,80 @@
+.grid {
+  display: grid;
+  grid-template-areas: "a b c d";
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  background-color: rgb(173, 173, 173);
+  height: 240px;
+  width: 250px;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  color: rgb(104, 104, 104);
+}
+
+.item {
+  background-color: rgb(218, 218, 218);
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 20px;
+  cursor:default;
+}
+
+.item:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.display {
+  height: 50px;
+  width: 240px;
+  background-color: black;
+  position: relative;
+  top: 20px;
+  left: 0px;
+  color: white;
+  text-align: right;
+  padding-top: 20px;
+  padding-right:10px;
+  font-size: 20px;
+  cursor: default;
+}
+
+.clear {
+  height: 40px;
+  width: 250px;
+  background-color: rgb(165, 165, 165);
+  position: relative;
+  top: 20px;
+  left: 0px;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(44, 44, 44);
+  cursor: default;
+}
+
+.clear:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.item:nth-child(4),
+.item:nth-child(8),
+.item:nth-child(12),
+.item:nth-child(16) {
+  background-color: rgb(233, 141, 36);
+  color: white;
+}
+
+.item:nth-child(4):hover,
+.item:nth-child(8):hover,
+.item:nth-child(12):hover,
+.item:nth-child(16):hover {
+  background-color: rgb(255, 155, 40);
+}
+
+input {
+  position: absolute;
+  top:100px;
+  left:50px;
+}
